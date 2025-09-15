@@ -95,3 +95,13 @@ print(type(str(100)))
 # Escape Sequence
 weather = 'It\'s sunny'
 print(weather)
+
+#Formatted strings
+print('Formtted strings')
+
+name = 'John Doe'
+age = 32
+
+print(f'Hello {name}, you are {age} year old')
+
+print('Hi {}, you are {} years old'.format('Akash',32))
