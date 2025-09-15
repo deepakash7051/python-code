@@ -1,0 +1,97 @@
+#Fundamental datatypes
+print(type(2+1))
+print(type(2-1))
+print(type(2*1))
+print(type(2/1))
+print(type(0))
+
+print(2**3) #2's power of 3
+print(5//4) #quationt
+print(6 % 4) # remainder
+
+#math functions
+print('Math functions.')
+print(round(3.9))
+print(abs(-20)) #absolute value, positve number
+
+#Developer Fundamentals
+print('Developer Fundamentals')
+
+#Operator precedence
+print('Operators precedence')
+# 1. ()
+# 2. **
+# 3. * /
+# 4. + -
+
+print(20 + 3 * 4);
+print(20 - 3 * 4);
+
+# Variables
+iq = 190
+print(iq)
+
+# Ways to create variables
+# 1. Snake Case: snake_case
+
+user_iq = 190
+# 2. Start with lowercase or underscore
+userIQ = 190
+# 3. Letters, numbers, underscores
+useIQ190 = 190
+# 4. Case sensitives
+userIQ = 120
+UserIQ = 130
+
+# 5. Don't overwrite keywords
+
+
+#another way to create a variable
+a,b,c = 1,2,3
+print(a)
+print(b)
+print(c)
+
+# Expression and statement
+#express
+iq=195
+
+#statement
+user_age = iq / 5
+
+#augmented assignment operator
+some_value = 5
+some_value = some_value + 2
+
+# now augmented assignment operator
+some_value += 2
+print(some_value)
+# similarly
+some_value -= 5
+print(some_value)
+
+
+#string
+print(type("do not give up!"))
+
+username = 'akash@yopmail.com'
+password = 'admin123'
+long_string = '''
+WOW
+0 0
+---
+'''
+print(long_string)
+
+firstname = 'Akashdeep'
+lastname = 'Gautam'
+fullname = firstname+' '+lastname
+print(fullname)
+
+# Type Convervsion
+print('Type Conversion')
+print(type(str(100)))
+
+# Escape Sequence
+weather = 'It\'s sunny'
+print(weather)
