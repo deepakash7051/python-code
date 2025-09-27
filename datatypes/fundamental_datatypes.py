@@ -105,3 +105,5 @@ age = 32
 print(f'Hello {name}, you are {age} year old')
 
 print('Hi {}, you are {} years old'.format('Akash',32))
+
+# String Index
