@@ -151,3 +151,12 @@ birthYear = input('What is your birth year ')
 age = 2025 - int(birthYear)
 
 print(f'Your age is {age}')
+
+# password checker
+username = input('Username: ')
+password = input('Password: ')
+
+secret = '*' * len(password)
+
+print(f"Hey {username}! your password {secret} is {len(password)} lettars long")
+
