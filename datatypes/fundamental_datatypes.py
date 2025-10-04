@@ -160,3 +160,9 @@ secret = '*' * len(password)
 
 print(f"Hey {username}! your password {secret} is {len(password)} lettars long")
 
+
+# None data type
+''' its same as null in other programing language '''
+weapon = None
+print(weapon)
+
